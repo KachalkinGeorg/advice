@@ -1,0 +1,20 @@
+;
+; Version description file for plugin @@ Next Generation CMS
+;
+
+ID: advice
+Name: Отзывы в новостях
+Version: 0.2
+Acts: index,news,ppages,admin:mod:news,admin:mod:preview
+File: advice.php
+Config: config.php
+Install: install.php
+Deinstall: deinstall.php
+Type: plugin
+Description: Рецензии, советы, отзывы в новостях.
+Author: KachalkinGeorg
+Author_URI: 
+Icon: <i class='fa fa-bullhorn fa-2x'></i>
+Title: Отзывы в новостях
+Information: Организует в новостях возможность оставлять отзывы для проектов магазинов, личных портфолио или рецензий для киносайтов.
+Preinstall: default_no
